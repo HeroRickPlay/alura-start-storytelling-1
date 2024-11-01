@@ -5,10 +5,22 @@ body {
 header {
     text-align: center;
     color: azure;
+    size: 20px;
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+header nav {
+    border: solid 5px #C68346;
+    border-radius: 10px;
+}
+
+header nav :hover {
+    border-color: goldenrod;
 }
 
 footer {
-    background-color: darkslategray;
+    background-color: gray;
     color: azure;
 }
 
